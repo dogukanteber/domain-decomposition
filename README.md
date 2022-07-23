@@ -4,15 +4,7 @@ This repository is a complementary of a <a href="insert link">blog post</a> whic
 
 ## Problem Definition
 
-Write a program that gets the average of each cell and its neighbors and writes the result into a file in parallel. For example, let the matrix name be ```initial_matrix```:
-
-insert image here
-
-We want to calculate the average value for ```initial_matrix[1][1]```. Below you can see that the cell we want to calculate is written in blue and its neighbors are written in red:
-
-insert another image here
-
-You should do this operation for every cell in the matrix.
+Write a program that gets the average of each cell and its neighbors and writes the result into a file in parallel.
 
 Your solution should satisfy these:
 
