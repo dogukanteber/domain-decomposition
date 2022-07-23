@@ -8,12 +8,12 @@ Write a program that gets the average of each cell and its neighbors and writes 
 
 Your solution should satisfy these:
 
-* each process should calculate the average of its neighbors and write the result into a file in parallel
-* use at least 2 processes
-* the solution should scale with different number of processes
+* creating the initial matrix in parallel
+* calculating the average of each cell's neighbors and writing the result into a file in parallel
+* using at least 2 processes
+* scaling with different number of processes
 
 Getting average of every cell is considered as an iteration. You should do this iteration at least 2 times. Once you compare your results with [sample file](sample_output), you can play with the number of iterations to measure the performance.
-
 
 You can ignore corner cases like having a 10x10 matrix and dividing it into 3 processes. You can assume the matrix is divided to equal squares among processes. In addition to that, you do not have to decompse the domain into squares to solve the problem. Any geometrical shape can be used.
 
