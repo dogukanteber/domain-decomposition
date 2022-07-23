@@ -1,6 +1,6 @@
 # Domain Decomposition
 
-This repository is a complementary of a <a href="insert link">blog post</a> which I have written about the domain decomposition method. It contains an exercise about domain decomposition and its solution.
+This repository is a complementary of a <a href="https://summerofhpc.prace-ri.eu/can-you-briefly-explain-the-domain-decomposition-method/">blog post</a> which I have written about the domain decomposition method. It contains an exercise about domain decomposition and its solution.
 
 ## Problem Definition
 
