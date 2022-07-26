@@ -5,8 +5,8 @@
 #include <mpi.h>
 
 #define NUMBER_OF_DIMS 2
-#define GLOBAL_GRID_SIZE 400
-#define LOCAL_GRID_SIZE 100
+#define GLOBAL_GRID_SIZE 8
+#define LOCAL_GRID_SIZE 4
 #define P_LOCAL_GRID_SIZE LOCAL_GRID_SIZE+2 // PADDED_LOCAL_GRID_SIZE
 #define PADDING 1
 
@@ -224,7 +224,7 @@ int main(int argc, char* argv[]) {
     MPI_Type_commit(&col_type);
     // end -- setup datatypes for communicating with other processes in one call
 
-    int steps = 1000;
+    int steps = 3;
     for ( int step=0; step<steps; ++step) {
         // start -- printing the results
 
