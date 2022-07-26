@@ -4,7 +4,7 @@ This repository is a complementary of a <a href="https://summerofhpc.prace-ri.eu
 
 ## Problem Definition
 
-Write a program that gets the average of each cell and its neighbors and writes the result into a file in parallel.
+Write a program that gets the average of each cell and its neighbors(north, south, east, west, nort-west, north-east, south-west, south-east) and writes the result into a file in parallel.
 
 Your solution should satisfy these:
 
